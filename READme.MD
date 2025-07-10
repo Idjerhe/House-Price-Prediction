@@ -1,10 +1,10 @@
-# 🏠 House Price Prediction – Regression Project
+# House Price Prediction – Regression Project
 
 This project uses the **Ames Housing Dataset** to predict house sale prices using a `RandomForestRegressor`. It involves cleaning, encoding, scaling, model training, evaluation, and feature interpretation.
 
 ---
 
-## 📌 Project Goals
+ Project Goals
 
 - Predict house prices accurately using regression models
 - Identify the most important factors influencing house prices
@@ -12,15 +12,15 @@ This project uses the **Ames Housing Dataset** to predict house sale prices usin
 
 ---
 
-## 📊 Dataset Info
+ Dataset Info
 
-- 📂 Source: [Ames Housing Dataset on Kaggle](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset)
-- 🧮 80+ features (numerical and categorical)
-- 🎯 Target: `SalePrice`
+-  Source: [Ames Housing Dataset on Kaggle](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset)
+-  80+ features (numerical and categorical)
+-  Target: `SalePrice`
 
 ---
 
-## 🧼 Preprocessing Steps
+##  Preprocessing Steps
 
 - Missing values handled using:
   - Median for numerical columns
@@ -30,18 +30,18 @@ This project uses the **Ames Housing Dataset** to predict house sale prices usin
 
 ---
 
-## 🤖 Model Used
+# Model Used
 
 - `RandomForestRegressor` from scikit-learn
 
-### 📈 Performance on Test Set:
+# Performance on Test Set:
 - **MAE**: 0.0214
 - **RMSE**: 0.0358
-- **R²**: 0.9118 ✅
+- **R²**: 0.9118 
 
 ---
 
-## 🔍 Top 3 Most Important Features
+#Top 3 Most Important Features
 
 | Feature        | Meaning                                      |
 |----------------|----------------------------------------------|
@@ -51,7 +51,7 @@ This project uses the **Ames Housing Dataset** to predict house sale prices usin
 
 ---
 
-## 📎 Requirements
+#Requirements
 
 ```bash
 pandas
